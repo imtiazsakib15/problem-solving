@@ -5,7 +5,7 @@ const books = [
   { title: "Atomic Habits", author: "James Clear", year: 2018 },
 ];
 
-const printTitles = () => {
+const printTitles = (books) => {
   const names = books.map((book) => book.title);
   return names;
 };
